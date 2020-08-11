@@ -1,7 +1,7 @@
 function primeFactorList(n){
   var listArray = []
   if(n > 1){
-    if(n % 2 === 0){
+    while(n % 2 === 0){
       listArray.push(2)
       n /= 2
     }
