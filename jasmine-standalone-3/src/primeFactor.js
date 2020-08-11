@@ -5,8 +5,8 @@ function primeFactorList(n){
       listArray.push(2)
       n /= 2
     }
-    if(n > 1)
-    listArray.push(n)
   };
+  if(n > 1)
+  listArray.push(n)
   return listArray
 };
