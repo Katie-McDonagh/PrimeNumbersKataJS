@@ -1,3 +1,3 @@
-function primeFactorList(){
-
+function primeFactorList(n){
+  return []
 };
