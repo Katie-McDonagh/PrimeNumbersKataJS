@@ -7,8 +7,6 @@ function primeFactorList(n){
       n /= devisor
     }
     devisor++;
-  };
-  if(n > 1)
-  listArray.push(n)
+  }; 
   return listArray
 };
