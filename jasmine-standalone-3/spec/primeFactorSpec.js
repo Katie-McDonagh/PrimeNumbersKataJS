@@ -80,4 +80,8 @@ describe("PrimeFactorList", function () {
     expect(primeFactorList(6)).toEqual([2,3])
   })
 
+  it ("returns 7 when given 7", function(){
+    expect(primeFactorList(7)).toEqual([7])
+  })
+
 });
