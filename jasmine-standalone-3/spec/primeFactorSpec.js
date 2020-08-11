@@ -88,4 +88,8 @@ describe("PrimeFactorList", function () {
     expect(primeFactorList(8)).toEqual([2,2,2])
   })
 
+  it ("returns [3,3] when given 9", function(){
+    expect(primeFactorList(9)).toEqual([3,3])
+  })
+
 });
