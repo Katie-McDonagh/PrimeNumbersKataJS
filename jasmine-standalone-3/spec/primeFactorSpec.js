@@ -60,7 +60,7 @@ describe("PrimeFactorList", function () {
   it ("returns an empty list when given 1", function(){
     expect(primeFactorList(1)).toEqual([])
   })
-  it ("returns 2 list when given 2", function(){
+  it ("returns [2] when given 2", function(){
     expect(primeFactorList(2)).toEqual([2])
   })
 });
