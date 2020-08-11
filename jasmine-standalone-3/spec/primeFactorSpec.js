@@ -57,5 +57,7 @@
 //   });
 // });
 describe("PrimeFactorList", function () {
-
+  it ("returns an empty list when given 1", function(){
+    expect(primeFactorList(1)).toEqual([])
+  })
 });
