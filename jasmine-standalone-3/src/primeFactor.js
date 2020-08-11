@@ -1,14 +1,12 @@
 function primeFactorList(n){
   var listArray = []
-  if(n > 1){
-    while(n % 2 === 0){
-      listArray.push(2)
-      n /= 2
+  var devisor = 2
+  while(n > 1){
+    while(n % devisor === 0){
+      listArray.push(devisor)
+      n /= devisor
     }
-    while(n % 3 === 0){
-      listArray.push(3)
-      n /= 3
-    }
+    devisor++;
   };
   if(n > 1)
   listArray.push(n)
